@@ -1,0 +1,20 @@
+﻿CREATE TABLE pollution_incidents 
+(NOT_ID integer,
+POLL_TYPE character varying(500),
+POLLUTANT character varying(500),
+NOT_DATE date,
+REGION_WM character varying(500),
+AREA_WM character varying(500),
+REGION_PF character varying(500),
+AREA_PF character varying(500),
+COUNTY character varying(500),
+UNITARY character varying(500),
+DISTRICT character varying(500),
+NGR_CONF character varying(500),
+X_CONF integer,
+Y_CONF integer,
+EP_INC character varying (50),
+EIL_AIR character varying(500),
+EIL_LAND character varying(500),
+EIL_WATER character varying(500)
+)
